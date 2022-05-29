@@ -1,0 +1,27 @@
+@media (min-width: 1500px) { 
+
+
+    .image__container {
+
+        margin-top: 140px;
+    }
+
+ 
+ }
+
+
+ @media (max-width: 600px ) {
+
+
+    main i {
+
+        float: right;
+        margin: 0px;
+        padding: 0px;
+        padding-bottom: 30px;
+        padding: 100px;
+        padding-right: 5px;
+     
+        margin-bottom: 40px;
+    }
+ }

@@ -1,0 +1,61 @@
+body {
+
+    background: linear-gradient( 60deg, #ffffff, #de91e5);
+ 
+}
+
+
+div.card {
+
+    background-color: rgb(163, 160, 155);
+    width: 1000px;
+   box-shadow: 20px 10px 20px 4px #de91e5;
+   border-radius: 10px 8px;
+   border-style: solid;
+ border-color: white;
+
+ background-image: url(/images/marble\ background\ home\ decor.jpg);
+
+ background-size: cover;
+   
+ 
+}
+.card__content {
+
+    background-color: aliceblue;
+
+
+  
+    line-height: 100px;
+ 
+    
+
+
+  
+
+  
+    
+}
+
+.card:focus, .card:hover {
+
+padding: 0px;
+border-style: solid;
+border-color: aqua;
+
+}
+
+
+div.product__image {
+
+    background-image: url(/images/couch\ home\ decor\ yellow.png);
+
+  
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    z-index: 1000;
+}
+
+/*we add the call to action and use more lively colors onclick, we have our soft shadows to give a sense of nature, to soften the experience, a comfortable user satays longer, 
+we preserve the qualitites of the ligth we've given with the addition of the natural shadows*/
