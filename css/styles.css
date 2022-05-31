@@ -7,7 +7,7 @@ body {
     background-image: linear-gradient(161deg, #ca97cc 16.67%, #37617a 16.67%, #37617a 50%, #ca97cc 50%, #ca97cc 66.67%, #37617a 66.67%, #37617a 100%);
     background-size: 18.43px 6.35px;
 
-    background: linear-gradient(#e664e0, #d8e591);
+    background: linear-gradient(#bc5ce9, #ced134);
 
 
 
@@ -22,6 +22,12 @@ body {
 
 
 
+  }
+
+  .active {
+
+    text-decoration: underline;
+    text-underline-offset: 12px;
   }
   
 h1,
@@ -108,8 +114,9 @@ label {
   background-color: aqua;
     color: white;
 
-    -webkit-text-stroke: 1px rgb(55, 60, 63); 
+   
     max-height: 50px;
+    margin-top: 150px;
   
   }
 
@@ -146,6 +153,30 @@ label {
     max-width: 300px;
 
     text-align: center;
+    
    
 }
 
+.logo__content {
+
+  width: 100px;
+  height: 100px;
+   background-image: url(/images/logo__home__decor.png);
+   background-size: contain;
+   z-index: 40000;
+   background-repeat: no-repeat;
+   background-color: rgb(135, 21, 163);
+   border-radius: 5%;
+
+
+}
+
+footer p {
+
+  padding: 10px;
+  border-radius: 5px 5px;
+  width: 20%;
+  background-color: rgb(9, 136, 136);
+  margin: 0 auto;
+
+}
